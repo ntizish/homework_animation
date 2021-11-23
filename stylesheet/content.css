@@ -1,0 +1,140 @@
+@keyframes text {
+  from { text-indent: -10% }
+  to { text-indent: 100%}
+}
+
+.face_base1 {
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji_base.png');
+}
+
+.faces1 {
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/faces.png');
+  animation: faces1 2s steps(1) infinite;
+}
+
+@keyframes faces1 {
+    0% { background-position: 0px 0px;}
+    33% { background-position: -160px 0px;}
+    66% { background-position: -320px 0px;}
+}
+
+.face_base2 {
+  width: 160px;
+  height: 160px;
+  left: 200px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji_base.png');
+}
+
+.faces2 {
+  width: 160px;
+  height: 160px;
+  left: 210px;
+  display: block;
+  position: absolute;
+  background: url('../img/faces.png');
+  animation: faces2 2s steps(1) infinite;
+}
+
+@keyframes faces2 {
+    0% { background-position: -480px 0px;}
+    33% { background-position: -640px 0px;}
+    66% { background-position: -800px 0px;}
+}
+
+.face_base3 {
+  width: 160px;
+  height: 160px;
+  left: 400px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji_base.png');
+}
+
+.faces3 {
+  width: 160px;
+  height: 160px;
+  left: 410px;
+  display: block;
+  position: absolute;
+  background: url('../img/faces.png');
+  animation: faces3 2s steps(1) infinite;
+}
+
+@keyframes faces3 {
+    0% { background-position: -960px 0px;}
+    33% { background-position: -1120px 0px;}
+    66% { background-position: -1280px 0px;}
+}
+
+.face_base4 {
+  width: 160px;
+  height: 160px;
+  left: 600px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji_base.png');
+}
+body {
+  background: #ffe5b4 ;
+}
+
+.text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 10s linear infinite;
+}
+
+.text:hover {
+  animation-play-state: paused;
+}
+
+.faces4 {
+  width: 160px;
+  height: 160px;
+  left: 610px;
+  display: block;
+  position: absolute;
+  background: url('../img/faces.png');
+  animation: faces4 2s steps(1) infinite;
+}
+
+@keyframes faces4 {
+    0% { background-position: -1440px 0px;}
+    33% { background-position: -1600px 0px;}
+    66% { background-position: -1760px 0px;}
+}
+
+.face_base5 {
+  width: 160px;
+  height: 160px;
+  left: 800px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji_base.png');
+}
+
+.faces5 {
+  width: 160px;
+  height: 160px;
+  left: 810px;
+  display: block;
+  position: absolute;
+  background: url('../img/faces.png');
+  animation: faces5 2s steps(1) infinite;
+}
+
+@keyframes faces5 {
+    0% { background-position: -1920px 0px;}
+    33% { background-position: -2080px 0px;}
+    66% { background-position: -2240px 0px;}
+}
